@@ -13,7 +13,7 @@ export default {
     ],
   },
   router: {
-    base: 'promise-lesson'
+    base: '/promise-lesson'
   },
   /*
   ** Customize the progress-bar color
