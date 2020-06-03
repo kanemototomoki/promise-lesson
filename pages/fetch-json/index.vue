@@ -1,3 +1,13 @@
 <template>
-  <p>fetch-json</p>
+  <fetch-json />
 </template>
+
+<script>
+import FetchJson from '~/components/FetchJson';
+
+export default {
+  components: {
+    FetchJson,
+  }
+}
+</script>

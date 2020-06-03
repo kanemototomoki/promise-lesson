@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import PromiseAnimation from '~/components/PromiseAnimation.vue';
+import PromiseAnimation from '~/components/PromiseAnimation';
 
 export default {
   components: {

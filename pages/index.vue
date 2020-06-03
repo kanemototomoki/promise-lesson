@@ -1,7 +1,13 @@
 <template>
   <nav id="nav">
-    <nuxt-link to="/fetch-json">Fetch-JSON</nuxt-link> |
-    <nuxt-link to="/promise-animation">Promise-Animation</nuxt-link>
+    <ul>
+      <li>
+        <nuxt-link to="/fetch-json">[見本]Fetch-JSON</nuxt-link>
+      </li>
+      <li>
+        <nuxt-link to="/promise-animation">[見本]Promise-Animation</nuxt-link>
+      </li>
+    </ul>
   </nav>
 </template>
 
@@ -15,6 +21,11 @@ export default {
 
 #nav {
   padding: 30px;
+  text-align: center;
+}
+
+#nav ul {
+  list-style: none;
 }
 
 #nav a {
