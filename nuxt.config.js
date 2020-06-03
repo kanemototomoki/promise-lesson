@@ -1,5 +1,6 @@
+const base = 'gh-pages' === process.env.NODE_ENV ? '/promise-lesson/' : '';
 
-export default {
+module.exports = {
   mode: 'universal',
   /*
   ** Headers of the page
@@ -13,7 +14,7 @@ export default {
     ],
   },
   router: {
-    base: '/promise-lesson'
+    base,
   },
   /*
   ** Customize the progress-bar color
