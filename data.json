@@ -1,0 +1,32 @@
+{
+  "colorList": [
+    {
+      "colorName": "lightblue",
+      "colorValue": "#ADD8E6"
+    },
+    {
+      "colorName": "lightcoral",
+      "colorValue": "#F08080"
+    },
+    {
+      "colorName": "lightgreen",
+      "colorValue": "#90EE90"
+    },
+    {
+      "colorName": "lightsalmon",
+      "colorValue": "#FFA0A7"
+    },
+    {
+      "colorName": "lightskyblue",
+      "colorValue": "#87CEFA"
+    },
+    {
+      "colorName": "lightpink",
+      "colorValue": "#FFB6C1"
+    },
+    {
+      "colorName": "lightseagreen",
+      "colorValue": "#20B2AA"
+    }
+  ]
+}
