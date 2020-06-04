@@ -41,7 +41,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 
 ul, li {
   list-style: none;
@@ -62,12 +62,12 @@ ul, li {
   box-shadow: 0 0 10px #ccc;
 }
 
-.color-list__item +
+/deep/ .color-list__item +
 .color-list__item {
   margin-top: 10px;
 }
 
-.color-list__title {
+/deep/ .color-list__title {
   padding: 10px;
   color: #fff;
   box-shadow: 0 0 2px #999 inset;
@@ -93,7 +93,7 @@ ul, li {
   transform: translate(-50%, -50%);
 }
 
-.circle {
+/deep/.circle {
   width: 100px;
   height: 100px;
   border: 10px solid white;
